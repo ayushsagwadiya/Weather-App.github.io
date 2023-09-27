@@ -1,0 +1,256 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+#navigate
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar 
+{
+    background-color: gainsboro;
+}
+
+.nav-item a
+{
+     font-family: 'Quintessential', cursive;
+     color: #000;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.main
+{
+   font-family: 'Quintessential', cursive;
+   color: #fff;
+   font-size: 19px;
+   font-weight: bold;
+}
+
+.title::before
+{
+    content: ' ';
+    background: #fff;
+    height: 5px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(79px);
+}
+
+.title::after
+{
+    content: ' ';
+    background: #fff;
+    height: 1px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    display: block;
+    transform: translateY(8px);
+}
+
+.title1::before
+{
+    content: ' ';
+    background: #000;
+    height: 5px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(79px);
+}
+
+.title1::after
+{
+    content: ' ';
+    background: #000;
+    height: 1px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    display: block;
+    transform: translateY(8px);
+}
+
+#home
+{
+   padding-bottom: 15rem;
+   overflow: hidden;
+}
+
+.banner video
+{
+   z-index: -1;
+   position: absolute;
+   width: 100%;
+
+}
+
+.heading h1
+{
+     font-family: 'Quintessential', cursive;
+     color: #F2F0F0;
+     font-size: 160px;
+     font-weight: bold;
+     justify-content: space-between;
+     margin-top: 6%;
+}
+
+.heading p
+{
+   font-family: 'Playfair Display', serif;
+   color: #F2F0F0;
+   font-size: 37px;
+}
+
+.point
+{
+    background-color: gainsboro;
+    padding : 2.5rem 0;
+}
+
+.point h2
+{
+     font-family: 'Quintessential', cursive;
+     color: #000;
+     font-size: 30px;
+     font-weight: bold;
+     justify-content: space-between;
+}
+
+.about
+{
+    background-color: #000;
+    background-attachment: fixed;
+    padding-bottom: 6rem;
+}
+
+.about h1
+{
+    font-family: 'Quintessential', cursive;
+    color: #F2F0F0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text p
+{
+   font-family: 'Playfair Display', serif;
+   color: #F2F0F0;
+   font-size: 24px;
+}
+
+.find
+{
+   padding-bottom: 3rem;
+   background-color: gainsboro;
+   padding-top: 5rem;
+}
+
+.find h1
+{
+    font-family: 'Quintessential', cursive;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.list h4
+{
+    font-family: 'Quintessential', cursive;
+    color: #F2F0F0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list li
+{
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 17px;
+}
+
+.list .card-header
+{
+    background-color: #000; 
+}
+
+.sub h2
+{
+    font-family: 'Quintessential', cursive;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.table 
+{
+   font-family: 'Playfair Display', serif;
+   color: black;
+   font-size: 18px;
+}
+
+.service4
+{
+    background-color: #000;
+    padding-bottom: 5rem;
+}
+
+.service4 h1
+{
+    font-family: 'Quintessential', cursive;
+    color: #F2F0F0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.photo label
+{
+    font-family: 'Playfair Display', serif;
+    color: #F2F0F0;
+    font-size: 20px;
+}
+
+.read
+{
+   font-family: 'Quintessential', cursive;
+   color: #F2F0F0;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.footer
+{
+    background-color: gainsboro;
+    background-attachment: fixed;
+}
+
+.footer h1
+{
+    font-family: 'Quintessential', cursive;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.social
+{
+    text-align: center;
+}
+ 
+.social .fa
+{
+      color: black;
+      font-size: 45px;
+}
